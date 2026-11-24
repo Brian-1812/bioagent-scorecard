@@ -1,0 +1,17 @@
+{
+  "_note": "HAND-MADE, not recorded: the shape of a safety refusal is a guess. Update it when a real one is seen.",
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "stop_reason": "refusal",
+  "num_turns": 1,
+  "result": "",
+  "usage": {
+    "input_tokens": 5,
+    "cache_creation_input_tokens": 700,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3
+  },
+  "total_cost_usd": 0.0001,
+  "api_error_status": null
+}

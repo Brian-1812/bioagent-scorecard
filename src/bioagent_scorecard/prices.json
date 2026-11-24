@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-11-17",
+  "unit": "USD per 1M tokens, standard (non-batch) tier",
+  "note": "Check each row on the official page before a paid run. Batch APIs cost 50% of these rates. cache_write = 1-hour cache write rate (2x input) for Claude models; it matches the total_cost_usd that Claude Code reported for the recorded Haiku call.",
+  "sources": {
+    "anthropic": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  "models": {
+    "claude-opus-5-5": {
+      "input": 4.0,
+      "output": 20.0,
+      "cached_input": 0.2,
+      "cache_write": 8.0
+    },
+    "claude-sonnet-5-5": {
+      "input": 2.0,
+      "output": 10.0,
+      "cached_input": 0.1,
+      "cache_write": 4.0
+    },
+    "claude-haiku-5-5": {
+      "input": 0.1,
+      "output": 0.5,
+      "cached_input": 0.01,
+      "note": "prompts <=100K tokens",
+      "cache_write": 0.2
+    },
+    "claude-fable-5-2": {
+      "input": 8.0,
+      "output": 40.0,
+      "cached_input": 0.2,
+      "cache_write": 16.0
+    }
+  }
+}

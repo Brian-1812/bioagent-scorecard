@@ -1,0 +1,28 @@
+{
+  "note": "Floor and ceiling anchors for the anchor scale s = (accuracy - floor) / (ceiling - floor). Floors are computed exactly from the task file (baselines.py). Ceilings are reported values from papers; see 'source' and 'status'.",
+  "lab-bench/SeqQA": {
+    "ceiling": {
+      "name": "human experts (LAB-Bench paper)",
+      "source": "LAB-Bench, arXiv 2407.10362v3, Appendix B, Table 2 (accuracy, column Human), per subtask",
+      "status": "reported; values read by a model-run extraction of the arXiv HTML on 2026-11-21, not yet checked by a person against the table. Their mean (0.789) matches the 78.8% that the Biomni paper cites for SeqQA humans.",
+      "caveat": "Humans could answer 'unsure' (coverage below 1 in some subtasks), and the human set was the paper's 750 questions, not only the 600 public rows.",
+      "by_subtask": {
+        "ORF-seq-AAid": 0.91,
+        "ORF-seq-AAseq": 0.88,
+        "ORF-seq-numlen": 0.31,
+        "ORF-transeff": 0.38,
+        "PCR-gene-enzprimers": 0.83,
+        "PCR-gene-gibshindprimers": 0.71,
+        "PCR-gene-gibssmaprimers": 0.73,
+        "PCR-geneprimers-enz": 0.94,
+        "PCR-len-primers": 0.90,
+        "PCR-primers-len": 0.90,
+        "PCR-seq-enzprimers": 0.81,
+        "PCR-seq-primers": 1.00,
+        "Prop-seq-gcpercent": 1.00,
+        "RE-seq-lenfrags": 0.83,
+        "RE-seq-numfrags": 0.71
+      }
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "tasks": {
+    "file": "data/lab-bench/SeqQA.jsonl",
+    "sha256": "7fa41a863832e2eaed8e419ca0df7bda31ed24e82cc54de2f22520d434868054",
+    "hf_revision": "5c77cec648430f30611808808861eb86f81d5eaa",
+    "n": 600
+  },
+  "rows": {
+    "B": {
+      "combine": {
+        "old_dir": "runs/first-full-run/20261121-133737-claude-sandbox-claude-sonnet-5-5-s0-09c8a7b540de",
+        "new_dir": "runs/rerun/20261122-181148-claude-sandbox-claude-sonnet-5-5-s0-09c8a7b540de",
+        "from_old": 480,
+        "from_rerun": 120,
+        "old_dropped": 120,
+        "outcomes_not_scored_normally": [],
+        "old_manifest_git": "commit of the private development history, not in this repository",
+        "new_manifest_git": "commit of the private development history, not in this repository"
+      },
+      "all": {
+        "value": 0.9316666666666666,
+        "k": 559,
+        "n": 600,
+        "ci95": [
+          0.9086,
+          0.9492
+        ],
+        "refused": 6,
+        "wrong": 35
+      },
+      "anchor_s": 1.27,
+      "unchanged": {
+        "value": 0.9291666666666667,
+        "k": 446,
+        "n": 480,
+        "ci95": [
+          0.9026,
+          0.9489
+        ],
+        "refused": 4,
+        "wrong": 30
+      },
+      "rerun_fresh": {
+        "value": 0.9416666666666667,
+        "k": 113,
+        "n": 120,
+        "ci95": [
+          0.8845,
+          0.9715
+        ],
+        "refused": 2,
+        "wrong": 5
+      },
+      "old_stale_replaced": {
+        "value": 0.525,
+        "k": 63,
+        "n": 120,
+        "ci95": [
+          0.4363,
+          0.6122
+        ],
+        "refused": 55,
+        "wrong": 2
+      },
+      "old_full_run": {
+        "value": 0.8483333333333334,
+        "k": 509,
+        "n": 600,
+        "ci95": [
+          0.8174,
+          0.8748
+        ],
+        "refused": 59,
+        "wrong": 32
+      },
+      "by_subtask_rerun": {
+        "PCR-gene-enzprimers-v1-public": {
+          "value": 0.975,
+          "k": 39,
+          "n": 40,
+          "ci95": [
+            0.8712,
+            0.9956
+          ],
+          "refused": 0,
+          "wrong": 1
+        },
+        "PCR-geneprimers-enz-v1-public": {
+          "value": 0.9,
+          "k": 36,
+          "n": 40,
+          "ci95": [
+            0.7695,
+            0.9604
+          ],
+          "refused": 0,
+          "wrong": 4
+        },
+        "PCR-seq-enzprimers-v1-public": {
+          "value": 0.95,
+          "k": 38,
+          "n": 40,
+          "ci95": [
+            0.835,
+            0.9862
+          ],
+          "refused": 2,
+          "wrong": 0
+        }
+      }
+    },
+    "A": {
+      "combine": {
+        "old_dir": "runs/first-full-run/20261121-133831-claude-cli-claude-sonnet-5-5-s0-8b0e5866f4ea",
+        "new_dir": "runs/rerun/20261122-192833-claude-cli-claude-sonnet-5-5-s0-8b0e5866f4ea",
+        "from_old": 480,
+        "from_rerun": 120,
+        "old_dropped": 120,
+        "outcomes_not_scored_normally": [],
+        "old_manifest_git": "commit of the private development history, not in this repository",
+        "new_manifest_git": "commit of the private development history, not in this repository"
+      },
+      "all": {
+        "value": 0.9083333333333333,
+        "k": 545,
+        "n": 600,
+        "ci95": [
+          0.8826,
+          0.9289
+        ],
+        "refused": 3,
+        "wrong": 52
+      },
+      "anchor_s": 1.225,
+      "unchanged": {
+        "value": 0.9,
+        "k": 432,
+        "n": 480,
+        "ci95": [
+          0.8699,
+          0.9237
+        ],
+        "refused": 1,
+        "wrong": 47
+      },
+      "rerun_fresh": {
+        "value": 0.9416666666666667,
+        "k": 113,
+        "n": 120,
+        "ci95": [
+          0.8845,
+          0.9715
+        ],
+        "refused": 2,
+        "wrong": 5
+      },
+      "old_stale_replaced": {
+        "value": 0.48333333333333334,
+        "k": 58,
+        "n": 120,
+        "ci95": [
+          0.3958,
+          0.5719
+        ],
+        "refused": 59,
+        "wrong": 3
+      },
+      "old_full_run": {
+        "value": 0.8166666666666667,
+        "k": 490,
+        "n": 600,
+        "ci95": [
+          0.7837,
+          0.8456
+        ],
+        "refused": 60,
+        "wrong": 50
+      },
+      "by_subtask_rerun": {
+        "PCR-gene-enzprimers-v1-public": {
+          "value": 0.975,
+          "k": 39,
+          "n": 40,
+          "ci95": [
+            0.8712,
+            0.9956
+          ],
+          "refused": 0,
+          "wrong": 1
+        },
+        "PCR-geneprimers-enz-v1-public": {
+          "value": 0.9,
+          "k": 36,
+          "n": 40,
+          "ci95": [
+            0.7695,
+            0.9604
+          ],
+          "refused": 0,
+          "wrong": 4
+        },
+        "PCR-seq-enzprimers-v1-public": {
+          "value": 0.95,
+          "k": 38,
+          "n": 40,
+          "ci95": [
+            0.835,
+            0.9862
+          ],
+          "refused": 2,
+          "wrong": 0
+        }
+      }
+    }
+  },
+  "anchors": {
+    "tasks": 600,
+    "floor_chance": 0.198,
+    "floor_longest": 0.2612,
+    "ceiling": 0.7893,
+    "ceiling_name": "human experts (LAB-Bench paper)",
+    "ceiling_status": "reported"
+  },
+  "old_tasks": {
+    "file": "data/lab-bench/SeqQA.stale.jsonl",
+    "sha256": "7d2d113295d3fc78c35499690bdb6b376b3979f0534dfd1b5ba5c056beed9e78",
+    "ids_with_same_content": 480
+  },
+  "paired": {
+    "all": {
+      "n": 600,
+      "first_only": 33,
+      "second_only": 19,
+      "diff_points": 2.33,
+      "p_exact_mcnemar": 0.0704
+    },
+    "unchanged": {
+      "n": 480,
+      "first_only": 32,
+      "second_only": 18,
+      "diff_points": 2.92,
+      "p_exact_mcnemar": 0.0649
+    },
+    "rerun_fresh": {
+      "n": 120,
+      "first_only": 1,
+      "second_only": 1,
+      "diff_points": 0.0,
+      "p_exact_mcnemar": 1.0
+    },
+    "order": [
+      "B",
+      "A"
+    ]
+  }
+}

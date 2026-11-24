@@ -1,0 +1,6 @@
+{"id": "syn-001", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "codon", "question": "Which amino acid does the codon ATG encode?", "ideal": "Met", "distractors": ["Trp", "Leu", "Stop"]}
+{"id": "syn-002", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "codon", "question": "Which codon is a stop codon?", "ideal": "TAA", "distractors": ["ATG", "GGC", "TTT"]}
+{"id": "syn-003", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "seq", "question": "What is the reverse complement of ATGC?", "ideal": "GCAT", "distractors": ["TACG", "CGTA", "ATGC"]}
+{"id": "syn-004", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "seq", "question": "What is the GC content of GGCC?", "ideal": "100%", "distractors": ["50%", "0%", "75%"]}
+{"id": "syn-005", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "seq", "question": "How many bases are in the sequence ACGTACGT?", "ideal": "8", "distractors": ["7", "9", "4"]}
+{"id": "syn-006", "benchmark": "synthetic", "subset": "Synthetic", "subtask": "enzyme", "question": "Which enzyme cuts the site GAATTC?", "ideal": "EcoRI", "distractors": ["BamHI", "HindIII", "NotI"]}

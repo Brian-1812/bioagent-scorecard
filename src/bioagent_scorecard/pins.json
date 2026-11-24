@@ -1,0 +1,23 @@
+{
+  "note": "Known-good data for each fetched subset. `fetch` downloads parquet_path at hf_revision from the git tree and stops unless parquet_sha256 and the sha256 of the JSONL it writes (our format, file order) both match. A run on a pinned subset refuses a JSONL with another hash unless --allow-unpinned is given.",
+  "lab-bench/SeqQA": {
+    "hf_dataset": "futurehouse/lab-bench",
+    "hf_revision": "5c77cec648430f30611808808861eb86f81d5eaa",
+    "parquet_path": "SeqQA/train-00000-of-00001.parquet",
+    "parquet_sha256": "5864776d3d85774f91d82432e30ac31e9222f1670621e8ea141414173c5e9b46",
+    "rows": 600,
+    "sha256": "7fa41a863832e2eaed8e419ca0df7bda31ed24e82cc54de2f22520d434868054",
+    "pinned_on": "2026-11-22",
+    "matches": "GitHub Future-House/LAB-Bench 998a8e0 SeqQA/*-public.jsonl: same 600 ids and the same question, ideal, distractors and canary",
+    "superseded": [
+      {
+        "sha256": "7d2d113295d3fc78c35499690bdb6b376b3979f0534dfd1b5ba5c056beed9e78",
+        "content_of_revision": "2050d471b164c95b48abe93ec2243c18f1f19939",
+        "recorded_as_revision": "5c77cec648430f30611808808861eb86f81d5eaa",
+        "why": "the datasets-server /rows cache (refs/convert/parquet) served an older commit; 120 tasks in 3 subtasks differ. Used by the first full run.",
+        "pinned_on": "2026-11-21",
+        "content_note": "the SeqQA parquet (LFS b8bb6a94) of the commits before e2978291c2f8b40fc9a41bf012021261a9e998dd (2025-09-27 00:42:29Z), for example 2050d471; e2978291 is where the fresh parquet first appears, 5c77cec6 is the newest commit with it"
+      }
+    ]
+  }
+}
